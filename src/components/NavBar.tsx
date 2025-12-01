@@ -60,8 +60,10 @@ export default function NavBar() {
 
             <div className="hidden md:flex items-center gap-3">
               <a
-                href="#demo"
-                className="text-sm px-4 py-2 rounded-xl border border-white/15 hover:border-white/25 transition"
+                href="https://rpos-app-git-pre-prod-kodakes-projects.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="px-3 py-2 rounded-lg hover:bg-white/5"
               >
                 Probar demo
               </a>
