@@ -1,13 +1,16 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>SITRA &middot; POS para comercios modernos</title>
 
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/sitra.svg" />
 
     <!-- SEO -->
-    <title>SITRA · POS para comercios modernos</title>
     <meta
       name="description"
       content="SITRA es un sistema de punto de venta (POS) rápido y seguro con inventario, facturación y reportes para tu negocio."
@@ -29,12 +32,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
+      rel="preload"
+      as="style"
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
-      rel="stylesheet"
+      onload="this.onload=null;this.rel='stylesheet'"
     />
-
-    <!-- Tailwind CDN (opcional si no usas PostCSS con Tailwind) -->
-    <script src="https://cdn.tailwindcss.com"></script>
+    <noscript>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      />
+    </noscript>
 
     <!-- Custom global styles -->
     <style>
@@ -45,25 +53,13 @@
         scroll-behavior: smooth;
       }
       body {
-        font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
-          Arial, "Apple Color Emoji", "Segoe UI Emoji";
-      }
-      .glass {
-        backdrop-filter: blur(10px);
-        background: rgba(255, 255, 255, 0.08);
-      }
-      .brand-gradient {
-        background-image: linear-gradient(
-          135deg,
-          #06b6d4 0%,
-          #0ea5e9 30%,
-          #6366f1 60%,
-          #8b5cf6 100%
-        );
+        font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto,
+          Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+        color: #222;
+        background-color: #f4f5f7;
+        line-height: 1.6;
       }
     </style>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
 
   <body>
