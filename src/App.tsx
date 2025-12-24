@@ -137,7 +137,7 @@ function Pricing() {
             </div>
             <p className="description">Ideal para emprendedores.</p>
             <ul>
-              <li>Hasta 100 ventas mensuales</li>
+              <li>Hasta 20 ventas mensuales</li>
               <li>1 usuario</li>
               <li>Reporte básico</li>
               <li>Soporte por correo</li>
@@ -158,7 +158,7 @@ function Pricing() {
               <li>Reportes avanzados</li>
               <li>Soporte chat/correo</li>
             </ul>
-            <button>Elegir Plan Estándar</button>
+            <button disabled>Elegir Plan Estándar</button>
           </div>
 
           <div className="plan">
@@ -174,7 +174,7 @@ function Pricing() {
               <li>Integraciones API</li>
               <li>Soporte 24/7</li>
             </ul>
-            <button>Elegir Plan Premium</button>
+            <button disabled>Elegir Plan Premium</button>
           </div>
         </div>
       </div>

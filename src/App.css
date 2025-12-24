@@ -412,7 +412,6 @@ footer {
   border-top: 1px solid #e0e0e0;
 }
 
-
 /* RESPONSIVE */
 @media (max-width: 768px) {
   .hero h1 {
@@ -439,4 +438,20 @@ footer {
   .nav-links.open {
     display: flex;
   }
+}
+
+/* === BOTÓN DESHABILITADO (PRICING) === */
+.plan button:disabled {
+  background-color: #d1d5db; /* gris claro */
+  color: #6b7280; /* texto gris */
+  cursor: not-allowed;
+  opacity: 1; /* evita que se vea “lavado” */
+  transform: none;
+  box-shadow: none;
+}
+
+/* Evita hover cuando está disabled */
+.plan button:disabled:hover {
+  opacity: 1;
+  transform: none;
 }
