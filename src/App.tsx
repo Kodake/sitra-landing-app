@@ -142,7 +142,12 @@ function Pricing() {
               <li>Reporte básico</li>
               <li>Soporte por correo</li>
             </ul>
-            <button>Empieza gratis</button>
+            <a
+              href="https://rpos-app-git-pre-prod-kodakes-projects.vercel.app/register?plan=free"
+              className="plan-btn free"
+            >
+              Empieza gratis
+            </a>
           </div>
 
           <div className="plan popular">
