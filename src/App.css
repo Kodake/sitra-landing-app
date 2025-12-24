@@ -455,3 +455,28 @@ footer {
   opacity: 1;
   transform: none;
 }
+
+/* === PLAN LINK COMO BOTÓN === */
+.plan .plan-btn {
+  display: block;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 20px;
+  background-color: #7b1113;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+/* Hover igual que button */
+.plan .plan-btn:hover {
+  opacity: 0.9;
+  transform: translateY(-1px);
+}
+
+.plan .plan-btn.free {
+  background-color: #f0b429;
+  color: #222;
+}

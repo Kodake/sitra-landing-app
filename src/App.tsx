@@ -143,7 +143,7 @@ function Pricing() {
               <li>Soporte por correo</li>
             </ul>
             <a
-              href="https://rpos-app-git-pre-prod-kodakes-projects.vercel.app/register?plan=free"
+              href="https://rpos-app-git-pre-prod-kodakes-projects.vercel.app/register"
               className="plan-btn free"
             >
               Empieza gratis
