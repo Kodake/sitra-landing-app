@@ -120,6 +120,9 @@ function Features() {
 /* =========================
    PRICING
 ========================= */
+/* =========================
+   PRICING
+========================= */
 function Pricing() {
   return (
     <section id="pricing">
@@ -130,16 +133,17 @@ function Pricing() {
         </p>
 
         <div className="pricing-grid">
+          {/* GRATIS */}
           <div className="plan">
-            <h3>Plan Gratis</h3>
+            <h3>Plan Inicial</h3>
             <div className="price">
               US$ 0<span>/mes</span>
             </div>
             <p className="description">Ideal para emprendedores.</p>
             <ul>
-              <li>Hasta 20 ventas mensuales</li>
+              <li>Hasta 10 ventas mensuales</li>
               <li>1 usuario</li>
-              <li>Reporte básico</li>
+              <li>Consulta de ventas</li>
               <li>Soporte por correo</li>
             </ul>
             <a
@@ -150,6 +154,7 @@ function Pricing() {
             </a>
           </div>
 
+          {/* ESTÁNDAR */}
           <div className="plan popular">
             <h3>Plan Estándar</h3>
             <div className="price">
@@ -157,8 +162,8 @@ function Pricing() {
             </div>
             <p className="description">Pequeños negocios en crecimiento.</p>
             <ul>
-              <li>Ventas ilimitadas</li>
-              <li>Hasta 3 usuarios</li>
+              <li>Hasta 100 ventas mensuales</li>
+              <li>2 usuarios</li>
               <li>Gestión de inventario</li>
               <li>Reportes avanzados</li>
               <li>Soporte chat/correo</li>
@@ -166,20 +171,41 @@ function Pricing() {
             <button disabled>Elegir Plan Estándar</button>
           </div>
 
+          {/* PREMIUM */}
           <div className="plan">
             <h3>Plan Premium</h3>
             <div className="price">
               US$ 19.25<span>/mes</span>
             </div>
-            <p className="description">Para varias sucursales.</p>
+            <p className="description">Negocios en expansión.</p>
+            <ul>
+              <li>Hasta 300 ventas mensuales</li>
+              <li>5 usuarios</li>
+              <li>Reportes avanzados</li>
+              <li>Integraciones API</li>
+              <li>Soporte 24/7</li>
+            </ul>
+            <button disabled>Elegir Plan Premium</button>
+          </div>
+
+          {/* FULL */}
+          <div className="plan">
+            <h3>Plan Full</h3>
+            <div className="price">
+              US$ 38.95<span>/mes</span>
+            </div>
+            <p className="description">Para empresas y múltiples sucursales.</p>
             <ul>
               <li>Ventas ilimitadas</li>
               <li>Usuarios ilimitados</li>
               <li>Múltiples sucursales</li>
               <li>Integraciones API</li>
+              <li>Reportes avanzados</li>
+              <li>Reportes personalizados</li>
+              <li>Estadísticas avanzadas</li>
               <li>Soporte 24/7</li>
             </ul>
-            <button disabled>Elegir Plan Premium</button>
+            <button disabled>Elegir Plan Full</button>
           </div>
         </div>
       </div>
