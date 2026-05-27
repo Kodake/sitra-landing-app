@@ -52,7 +52,7 @@ function Header({
               </a>
             </li>
             <li>
-              <a href="https://rpos-app-git-pre-prod-kodakes-projects.vercel.app/">
+              <a href="https://app.sitra.do/">
                 Login
               </a>
             </li>
@@ -147,7 +147,7 @@ function Pricing() {
               <li>Soporte por correo</li>
             </ul>
             <a
-              href="https://rpos-app-git-pre-prod-kodakes-projects.vercel.app/register"
+              href="https://app.sitra.do/register"
               className="plan-btn free"
             >
               Empieza gratis
