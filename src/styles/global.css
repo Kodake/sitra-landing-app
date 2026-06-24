@@ -1,0 +1,44 @@
+/* ============================
+   GLOBAL RESET & BASE STYLES
+   ============================ */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #f5f5f7;
+  font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Helvetica, Arial, sans-serif;
+  color: #334155;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ============================
+   SHARED LAYOUT
+   ============================ */
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* ============================
+   SECTION DEFAULTS
+   ============================ */
+
+section {
+  padding: 60px 0;
+}
+
+h2 {
+  color: #0f172a;
+  font-weight: 800;
+  letter-spacing: -0.3px;
+}

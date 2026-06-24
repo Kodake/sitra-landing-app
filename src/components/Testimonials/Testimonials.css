@@ -1,0 +1,43 @@
+/* ============================
+   TESTIMONIALS
+   ============================ */
+
+#testimonials {
+  background-color: transparent;
+}
+
+#testimonials h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2rem;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+}
+
+.testimonial-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 30px 24px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.04);
+}
+
+.testimonial-card .quote {
+  margin-bottom: 16px;
+  font-style: italic;
+  color: #334155;
+  line-height: 1.6;
+}
+
+.testimonial-card .name {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.testimonial-card .role {
+  font-size: 0.85rem;
+  color: #64748b;
+}
