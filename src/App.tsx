@@ -137,7 +137,9 @@ function Pricing() {
           <div className="plan">
             <h3>Plan Inicial</h3>
             <div className="price">
-              US$ 0<span>/mes</span>
+              <span className="symbol">RD$</span>
+              <span className="amount">1.00</span>
+              <span className="duration">/mes</span>
             </div>
             <p className="description">Ideal para emprendedores.</p>
             <ul>
@@ -158,7 +160,9 @@ function Pricing() {
           <div className="plan popular">
             <h3>Plan Estándar</h3>
             <div className="price">
-              US$ 9.85<span>/mes</span>
+              <span className="symbol">RD$</span>
+              <span className="amount">1.00</span>
+              <span className="duration">/mes</span>
             </div>
             <p className="description">Pequeños negocios en crecimiento.</p>
             <ul>
@@ -175,7 +179,9 @@ function Pricing() {
           <div className="plan">
             <h3>Plan Premium</h3>
             <div className="price">
-              US$ 19.25<span>/mes</span>
+              <span className="symbol">RD$</span>
+              <span className="amount">1.00</span>
+              <span className="duration">/mes</span>
             </div>
             <p className="description">Negocios en expansión.</p>
             <ul>
@@ -192,7 +198,9 @@ function Pricing() {
           <div className="plan">
             <h3>Plan Full</h3>
             <div className="price">
-              US$ 38.95<span>/mes</span>
+              <span className="symbol">RD$</span>
+              <span className="amount">1.00</span>
+              <span className="duration">/mes</span>
             </div>
             <p className="description">Para empresas y múltiples sucursales.</p>
             <ul>
